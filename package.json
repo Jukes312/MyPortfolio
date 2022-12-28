@@ -85,7 +85,7 @@
   },
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && node scripts/build.js",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
