@@ -67,7 +67,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <LazyLoadImage className="w-100" src="/assets/images/about/me.png" alt="About Images" effect='blur' placeholderSrc='/assets/images/about/me.png'/>
+                                        <LazyLoadImage className="w-100"  src="/assets/images/about/me.png" alt="About Images" effect='blur' placeholderSrc='/assets/images/about/me.png'/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -142,7 +142,7 @@ const PortfolioLanding = () => {
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
-                    <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Hire Me." />
+                    <ContactThree  contactTitle="Hire Me." />
                 </div>
             </div>
             {/* End COntact Area */}
