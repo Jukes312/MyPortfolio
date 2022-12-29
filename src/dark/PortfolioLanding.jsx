@@ -8,6 +8,7 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const SlideList = [
@@ -66,7 +67,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/me.png" alt="About Images"/>
+                                        <LazyLoadImage className="w-100" src="/assets/images/about/me.png" alt="About Images" effect='blur' placeholderSrc='/assets/images/about/me.png'/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
