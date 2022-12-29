@@ -1,7 +1,6 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
@@ -25,7 +24,7 @@ const PortfolioLanding = () => {
         description = `I'm a passionate developer, but more importantly I'm passionate about using technology to help people solve problems by using my technical knowledge. I still remember the day I discovered web development, just using HTML/CSS and seeing things change on the screen got me hooked as it allowed me to be creative. Then I went onto discover Javascript, this just made me fall in love with web development as well as creativity it also allowed me use logic.`;
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
+            
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
