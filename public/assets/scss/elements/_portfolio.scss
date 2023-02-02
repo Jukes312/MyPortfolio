@@ -51,7 +51,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 100%;
+        height: 50%;
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
@@ -64,15 +64,15 @@
         transition: transform .28s ease;
         z-index: 4;
         &.image-1{
-            background-image: url(/assets/images/portfolio/react.png);
+            background-image: url(/assets/images/portfolio/localGym.png);
         }
 
         &.image-2{
-            background-image: url(/assets/images/portfolio/color.png);
+            background-image: url(/assets/images/portfolio/react.png);
         }
 
         &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-3.jpg);
+            background-image: url(/assets/images/portfolio/color.png);
         }
 
         &.image-4 {
@@ -103,59 +103,17 @@
         }
     }
 
-    .bg-blr-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-color: #0a0a0a;
-        background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        @extend %transition;
-        transform: translateY(38px);
-        opacity: 0;
-        z-index: 1;
-
-        &.image-1{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        }
-        &.image-2{
-            background-image: url(/assets/images/portfolio/portfolio-2.jpg);
-        }
-        &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        }
-        &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        }
-    }
+   
 
     .content {
-        position: absolute;
-        bottom: 40px;
-        left: 40px;
-        right: 40px;
-        max-width: 100%!important;
-        z-index: 10;
-        padding: 0;
-        @media #{$lg-layout} {
-            left: 20px;
-            right: 20px;
-        }
-        @media #{$md-layout} {
-            left: 20px;
-            right: 20px;
-        }
-        @media #{$sm-layout} {
-            left: 20px;
-            right: 20px;
-        }
+       
         .inner {
+          
             p {
                 color: #c6c9d8;
                 font-size: 14px;
+              
+               
             }
             h4 {
                 font-size: 24px;
@@ -186,10 +144,13 @@
                     }
                 }
             }
+           
         }
     }
-
+   
+   
     &.portfolio-interior-design {
+        
         .thumbnail {
             &.image-1{
                 background-image: url(/assets/images/portfolio/interior/portfolio-1.jpg);

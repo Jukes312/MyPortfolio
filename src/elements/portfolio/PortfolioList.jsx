@@ -4,37 +4,26 @@ import React, { Component } from "react";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Created using React JS and CSS',
-        title: 'React blog app',
-        showLive: 'https://reactblogappp.netlify.app/'
+        category: 'Built using React and Google maps API',
+        title: 'Find local gym app',
+        showLive: 'https://locoalgym.netlify.app/'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Color converter app',
-        showLive: 'https://colorconverterr.netlify.app/'
+        category: 'Built using React',
+        title: 'Blog app',
+        showLive: 'https://reactblogappp.netlify.app/'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show',
-        showLive:''
+        category: 'Built using React',
+        title: 'Color converter app',
+        showLive:'https://colorconverterr.netlify.app/'
     },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show',
-        showLive:''
-    },
-    {
-        image: 'image-5',
-        category: 'Development',
-        title: 'Getting tickets to the big show',
-        showLive:''
-    },
+   
     {
         image: 'image-6',
-        category: 'Development',
+        category: 'Built using HTML5, CSS and Parcel(build tool)',
         title: 'Moshify clone',
         showLive:'https://moshifyyy.netlify.app/'
     }
@@ -52,7 +41,7 @@ class PortfolioList extends Component{
                         <div className={`portfolio ${styevariation}`}>
                             <div className="thumbnail-inner">
                                 <div className={`thumbnail ${value.image}`}></div>
-                                <div className={`bg-blr-image ${value.image}`}></div>
+                               
                             </div>
                             <div className="content">
                                 <div className="inner">
