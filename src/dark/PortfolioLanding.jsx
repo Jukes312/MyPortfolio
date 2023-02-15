@@ -9,6 +9,7 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ContactForm from "../elements/contact/ContactForm";
+import { Helmet } from 'react-helmet';
 
 
 const SlideList = [
@@ -25,7 +26,9 @@ const PortfolioLanding = () => {
         description = `I'm a passionate developer, but more importantly I'm passionate about using technology to help people solve problems by using my technical knowledge. I still remember the day I discovered web development, just using HTML/CSS and seeing things change on the screen got me hooked as it allowed me to be creative. Then I went onto discover Javascript, this just made me fall in love with web development as well as creativity it also allowed me use logic.`;
     return (
         <div className="active-dark">
-            
+            <Helmet>
+                <title>Jay's Portfolio</title>
+            </Helmet>
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
