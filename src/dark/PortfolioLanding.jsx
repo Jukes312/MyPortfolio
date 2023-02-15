@@ -5,10 +5,10 @@ import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
-import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import ContactForm from "../elements/contact/ContactForm";
 
 
 const SlideList = [
@@ -39,7 +39,7 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jograj singh <br/>
+                                            <h1 className="title">Hi, I’m Jay<br/>
                                             <TextLoop>
                                                 <span> Frontend Developer.</span>
                                                 <span> React JS developer.</span>
@@ -80,8 +80,10 @@ const PortfolioLanding = () => {
                                             <TabTwo tabStyle="tab-style--1" />
                                         </div>
                                     </div>
+                                    <a className="rn-button-style--2 btn-solid" target='_blank' href="https://docs.google.com/document/d/1blVxGmzL1L7aVeKlEwUhxfS29XfnSn8p/edit?usp=sharing&ouid=114820040043608163609&rtpof=true&sd=true"><span>My CV</span></a>
                                 </div>
                             </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -130,7 +132,6 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +143,7 @@ const PortfolioLanding = () => {
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
-                    <ContactThree  contactTitle="Hire Me." />
+                    <ContactForm />
                 </div>
             </div>
             {/* End COntact Area */}

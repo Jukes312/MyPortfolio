@@ -13,10 +13,10 @@ function ContactForm({props}) {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            'service_3qq4zuo', 
+            'template_j93jbyh', 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            'Mcz2oOBmr4qCnpmX5'
         )
         .then((result) => {
             console.log(result.text);
@@ -34,7 +34,18 @@ function ContactForm({props}) {
     }, 5000);
 
     return (
-        <form action="" onSubmit={sendEmail}>
+      
+         <div className="contact-form--1">
+         <div className="container">
+             <div className="">
+                 <div className=" order-2 order-lg-1">
+                     <div className="section-title text-left mb--50">
+                         <h2 className="title">Hire me.</h2>
+                         <p className="description">I am available for a developer work postion. Connect with me via phone: <a href="tel:+447449557354">07449557354</a> or email:
+                             <a href="mailto:jaysinghh311@gmail.com"> jaysinghh311@gmail.com</a> </p>
+                     </div>
+                     <div className="form-wrapper">
+                     <form action="" onSubmit={sendEmail}>
             <div className="rn-form-group">
                 <input 
                 type="text"
@@ -88,6 +99,12 @@ function ContactForm({props}) {
                 {result ? <Result /> : null}
             </div> 
         </form>
+                     </div>
+                 </div>
+                 
+             </div>
+         </div>
+     </div>
     )
 }
 export default ContactForm;

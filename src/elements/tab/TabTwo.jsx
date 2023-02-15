@@ -60,7 +60,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">National Extended Diploma Computing Level 3<span> - Reading collage</span></a> 2010
+                                                   <a href="/service">National Extended Diploma Computing Level 3<span> - Reading collage</span></a> 2020
                                                </li>
                                                <li>
                                                    <a href="/service">CS50 Introduction to Computer Science<span> - Harvard university</span></a> 2022

@@ -6,26 +6,30 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'Built using React and Google maps API',
         title: 'Find local gym app',
-        showLive: 'https://locoalgym.netlify.app/'
+        showLive: 'https://locoalgym.netlify.app/',
+        projectCode: 'https://github.com/Jukes312/gym'
     },
     {
         image: 'image-2',
         category: 'Built using React',
         title: 'Blog app',
-        showLive: 'https://reactblogappp.netlify.app/'
+        showLive: 'https://reactblogappp.netlify.app/',
+        projectCode: 'https://github.com/Jukes312/React-app-blog'
     },
     {
         image: 'image-3',
         category: 'Built using React',
         title: 'Color converter app',
-        showLive:'https://colorconverterr.netlify.app/'
+        showLive:'https://colorconverterr.netlify.app/',
+        projectCode: 'https://github.com/Jukes312/my-app'
     },
    
     {
         image: 'image-6',
         category: 'Built using HTML5, CSS and Parcel(build tool)',
         title: 'Moshify clone',
-        showLive:'https://moshifyyy.netlify.app/'
+        showLive:'https://moshifyyy.netlify.app/',
+        projectCode: 'https://github.com/Jukes312/moshify'
     }
 ]
 
@@ -49,6 +53,7 @@ class PortfolioList extends Component{
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href={value.showLive} target='_blank'>Show Live</a>
+                                        <a className="rn-btn" href={value.projectCode} target='_blank'>Project code</a>
                                     </div>
                                     
                                 </div>
